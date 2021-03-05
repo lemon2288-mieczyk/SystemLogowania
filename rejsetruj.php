@@ -45,7 +45,7 @@
 if (isset($_POST['submit'])) {
     if ($_POST['haslo1'] == $_POST['haslo2']) {
         
-        login
+        $login =htmlspecialchars($_POST)
         haslo1 
         haslo2
         imie
