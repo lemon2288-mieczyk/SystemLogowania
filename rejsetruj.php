@@ -40,5 +40,20 @@
         </form>
     </table>
 </fieldset>
+
+<?php 
+if (isset($_POST['submit'])) {
+    if ($_POST['haslo1'] == $_POST['haslo2']) {
+        
+        login
+        haslo1 
+        haslo2
+        imie
+        nazwisko    
+        email
+    }
+}
+
+?>
 </body>
 </html>
