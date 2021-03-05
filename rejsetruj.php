@@ -45,12 +45,12 @@
 if (isset($_POST['submit'])) {
     if ($_POST['haslo1'] == $_POST['haslo2']) {
         
-        $login =htmlspecialchars($_POST)
-        haslo1 
-        haslo2
-        imie
-        nazwisko    
-        email
+        $login =htmlspecialchars($_POST['login']);
+        $haslo1=htmlspecialchars($_POST['haslo1']);
+        $haslo2 =htmlspecialchars($_POST['haslo2']);
+        $imie=htmlspecialchars($_POST['imie']);
+        $nazwisko=htmlspecialchars($_POST['nazwisko']);    
+        $email=htmlspecialchars($_POST['email']);
     }
 }
 
