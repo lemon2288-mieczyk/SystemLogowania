@@ -11,6 +11,9 @@
     </style>
 </head>
 <body>
+<fieldset>
+    <legend> Formularz Rejestracji </legend>  
+    <table>
     <form action="rejestruj.php"method="post">
     <tr>
         <td>Login:</td><td><input type="text"name="login"require /></td>
@@ -30,10 +33,12 @@
     <tr>
         <td>Email:</td><td><input type="email"name="email"require /></td>
     </tr>
-    
-    </form>
+    <tr>
+        <td></td><td><input type="submit"value="rejestruj"require /></td>
+    </tr>
 
-
-
+        </form>
+    </table>
+</fieldset>
 </body>
 </html>
